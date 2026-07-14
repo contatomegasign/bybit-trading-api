@@ -1,4 +1,4 @@
-# Node.js & JavaScript SDK for Bybit REST API, WebSocket API & WebSocket Events
+# Bybit Trading API, WebSocket API & WebSocket Events
 
 [![Build & Test](https://github.com/tiagosiebler/bybit-api/actions/workflows/e2etest.yml/badge.svg?branch=master)](https://github.com/tiagosiebler/bybit-api/actions/workflows/e2etest.yml)
 [![npm version](https://img.shields.io/npm/v/bybit-api)][1]
@@ -9,16 +9,6 @@
 [![Telegram](https://img.shields.io/badge/chat-on%20telegram-blue.svg)](https://t.me/nodetraders)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tiagosiebler/bybit-api)
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/bybit-api">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tiagosiebler/bybit-api/blob/master/docs/images/logoDarkMode2.svg?raw=true#gh-dark-mode-only">
-      <img alt="SDK Logo" src="https://github.com/tiagosiebler/bybit-api/blob/master/docs/images/logoBrightMode2.svg?raw=true#gh-light-mode-only">
-    </picture>
-  </a>
-</p>
-
-[1]: https://www.npmjs.com/package/bybit-api
 
 > [!TIP]
 > Upcoming change: As part of the [Siebly.io](https://siebly.io/) brand, this SDK will soon be hosted under the [Siebly.io GitHub organisation](https://github.com/sieblyio). The migration is seamless and requires no user changes.
@@ -60,9 +50,7 @@ Professional Node.js, JavaScript & TypeScript SDK for the Bybit REST APIs, WebSo
      - Send commands with the `sendWSAPIRequest(...)` method.
      - Responses to commands will arrive via the `response` and `error` events emitted by the client.
      - See example for more details: [examples/ws-api-raw-events.ts](./examples/ws-api-raw-events.ts)
-- Active community support & collaboration in telegram: [Node.js Algo Traders](https://t.me/nodetraders).
 - QuickStart Guide: https://siebly.io/sdk/bybit/javascript
-- Bybit JavaScript Tutorial: [Bybit JavaScript REST API & WebSocket Tutorial](https://siebly.io/sdk/bybit/javascript/tutorial)
 
 # Table of Contents
 
